@@ -1,0 +1,14 @@
+#include<constream.h>
+void main()
+{
+clrscr();
+int i; 
+char p[4];
+cout<<"enter your password"<<"\n";
+for(i=0;i<4;i++)
+{
+p[i]=getch();
+cout<<"*";
+}
+getch();
+}
